@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica5.DatosDesarrollador">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tecnologico de Estudios Superiores de Huixquilucan" />
+            <Label Text="Dispositivos Moviles" />
+            <Label Text="Flores Tovar Edwin Michael" />
+            <Label Text="Matricula:13090352" />
+            <Label Text="Profesor: Vladimir Medina" />
+            <Button Text="Inicio" Clicked="Regresar_Clicked"/>
+            <Button Text="Capturar Datos" Clicked="Capturar_Clicked"/>
+            <Button Text="Calculadora" Clicked="Calculadora_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

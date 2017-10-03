@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica5.Calculadora">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Text="" x:Name="Caja3" BackgroundColor="Gray" FontSize="40" TextColor="White"/>
+            <!--<Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" x:Name="Caja4" BackgroundColor="Gray" FontSize="40" TextColor="White"/>-->
+            <Label Grid.Column="3" Grid.Row="0" Grid.ColumnSpan="1" Text="" x:Name="Caja2" BackgroundColor="Gray" FontSize="26" TextColor="White"/>
+            <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Text="" x:Name="Caja" BackgroundColor="Gray" FontSize="26" TextColor="White"/>
+
+
+
+
+            <Button Grid.Column="0" Grid.Row="2" Text="%" Clicked="Porcentaje_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="1" Grid.Row="2" Text="SQRT" Clicked="Raiz_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="2" Grid.Row="2" Text="^2" BackgroundColor="Gray" TextColor="White" Clicked="Exponente_Clicked"/>
+            <Button Grid.Column="3" Grid.Row="2" Text="1/x" BackgroundColor="Gray" TextColor="White" Clicked="Divx_Clicked"/>
+            <Button Grid.Column="0" Grid.Row="3" Text="CE" Clicked="BorrarT_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="1" Grid.Row="3" Text="R" BackgroundColor="Gray" TextColor="White" Clicked="R_Clicked"/>
+            <Button Grid.Column="2" Grid.Row="3" Text="Br" BackgroundColor="Gray" TextColor="White" Clicked="Br1a1_Clicked"/>
+            <Button Grid.Column="3" Grid.Row="3" Text="/" Clicked="Entre_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="0" Grid.Row="4" Text="7" Clicked="Siete_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="1" Grid.Row="4" Text="8" Clicked="Ocho_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="2" Grid.Row="4" Text="9" Clicked="Nueve_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="3" Grid.Row="4" Text="x" Clicked="Por_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="0" Grid.Row="5" Text="4" Clicked="Cuatro_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="1" Grid.Row="5" Text="5" Clicked="Cinco_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="2" Grid.Row="5" Text="6" Clicked="Seis_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="3" Grid.Row="5" Text="-" Clicked="Menos_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="0" Grid.Row="6" Text="1" Clicked="Uno_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="1" Grid.Row="6" Text="2" Clicked="Dos_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="2" Grid.Row="6" Text="3" Clicked="Tres_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="3" Grid.Row="6" Text="+" Clicked="Mas_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="0" Grid.Row="7" x:Name="mm" Text="+/-" BackgroundColor="Gray" TextColor="White" Clicked="NegativoPos_Clicked"/>
+            <Button Grid.Column="1" Grid.Row="7" Text="0" Clicked="Cero_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="2" Grid.Row="7" Text="." Clicked="Punto_Clicked" BackgroundColor="Gray" TextColor="White"/>
+            <Button Grid.Column="3" Grid.Row="7" Text="=" Clicked="Igual_Clicked" BackgroundColor="Gray" TextColor="White"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

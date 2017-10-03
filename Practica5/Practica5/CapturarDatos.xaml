@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica5.CapturarDatos">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Text="Datos Personales"/>
+
+            <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="1" Text="Nombre"/>
+            <Entry Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Placeholder="Nombre"/>
+
+            <Label Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="1" Text="Apellidos"/>
+            <Entry Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Placeholder="Apellidos"/>
+
+            <Label Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="1" Text="Direccion"/>
+            <Entry Grid.Column="1" Grid.Row="3" Grid.ColumnSpan="2" Placeholder="Direccion"/>
+
+            <Label Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="1" Text="Telefono"/>
+            <Entry Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="2" Placeholder="Telefono"/>
+
+            <Label Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" Text="Datos Escolares"/>
+
+            <Label Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="1" Text="Carrera"/>
+            <Entry Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Placeholder="Carrera"/>
+
+            <Label Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="1" Text="Semestre"/>
+            <Entry Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="2" Placeholder="Semestre"/>
+
+            <Label Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="1" Text="Matricula"/>
+            <Entry Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="2" Placeholder="Matricula"/>
+
+            <Label Grid.Column="0" Grid.Row="9" Grid.ColumnSpan="3" Text="Datos Sociales"/>
+
+            <Label Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="1" Text="Correo"/>
+            <Entry Grid.Column="1" Grid.Row="10" Grid.ColumnSpan="2" Placeholder="Correo"/>
+
+            <Label Grid.Column="0" Grid.Row="11" Grid.ColumnSpan="1" Text="GitHub"/>
+            <Entry Grid.Column="1" Grid.Row="11" Grid.ColumnSpan="2" Placeholder="GitHub"/>
+
+            <Button Text="Inicio" Grid.Column="0" Grid.Row="12" Grid.ColumnSpan="1" Clicked="Regresar_Clicked"/>
+            <Button Text="Desarrollador" Grid.Column="1" Grid.Row="12" Grid.ColumnSpan="1" Clicked="Des_Clicked"/>
+            <Button Text="Calculadora" Grid.Column="2" Grid.Row="12" Grid.ColumnSpan="1" Clicked="Cal_Clicked"/>
+            
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
